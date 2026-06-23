@@ -1,0 +1,332 @@
+body
+{
+   background-color: #FFFFFF;
+   color: #000000;
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 16px;
+   line-height: 1.1875;
+   margin: 0;
+   padding: 0;
+}
+#wb_list8LayoutGrid
+{
+   clear: both;
+   position: relative;
+   table-layout: fixed;
+   display: table;
+   text-align: center;
+   width: 100%;
+   background-color: #FFFFFF;
+   background-image: none;
+   border: 0px solid #CCCCCC;
+   border-radius: 0px;
+   box-sizing: border-box;
+   margin: 0;
+}
+#list8LayoutGrid
+{
+   box-sizing: border-box;
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+   padding: 100px 0 100px 0;
+   margin-right: auto;
+   margin-left: auto;
+   max-width: 1140px;
+}
+#list8LayoutGrid > .col-1
+{
+   box-sizing: border-box;
+   font-size: 0;
+   min-height: 1px;
+   padding-right: 15px;
+   padding-left: 15px;
+   position: relative;
+}
+#list8LayoutGrid > .col-1
+{
+   flex: 0 0 auto;
+}
+#list8LayoutGrid > .col-1
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   flex-basis: 100%;
+   max-width: 100%;
+   display: flex;
+   flex-wrap: wrap;
+   align-content: flex-start;
+   align-self: stretch;
+   align-items: flex-start;
+   justify-content: center;
+   text-align: center;
+}
+@media (max-width: 768px)
+{
+#list8LayoutGrid > .col-1
+{
+   flex-basis: 100% !important;
+   max-width: 100% !important;
+}
+}
+#wb_list8Heading
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   box-sizing: border-box;
+   vertical-align: top;
+   margin: 0 0 50px 0 ;
+   padding: 0;
+   text-align: center;
+}
+#list8Heading
+{
+   color: #000000;
+   font-family: Arial;
+   font-weight: bold;
+   font-style: normal;
+   font-size: 64px;
+   margin: 0;
+   text-align: center;
+   text-transform: none;
+}
+#list8Accordion *, #list8Accordion *::before, #list8Accordion *::after
+{
+   box-sizing: border-box;
+}
+#list8Accordion .accordion-item
+{
+   background-color: #FFFFFF;
+   background-image: none;
+   border: 1px solid transparent;
+   border-radius: 0px;
+   box-shadow: 0px 1px 1px rgba(0,0,0,0.05);
+   margin-bottom: 1px;
+   overflow: hidden;
+   text-align: left;
+}
+#list8Accordion .accordion-item
+{
+   border-color: #1778F2;
+}
+#list8Accordion.accordion-group .accordion-item
+{
+   margin-bottom: -1px;
+   overflow: hidden;
+   border-radius: 0px;
+}
+#list8Accordion .accordion-header
+{
+   border-bottom: 1px solid transparent;
+   border-top-right-radius: 0px;
+   border-top-left-radius: 0px;
+}
+#list8Accordion .accordion-item > .accordion-header
+{
+   background-color: #1778F2;
+   background-image: none;
+}
+#list8Accordion .accordion-item.active
+{
+   border-color: rgba(222,226,230,1.00);
+}
+#list8Accordion .accordion-item.active > .accordion-header
+{
+   background-color: #1778F2;
+   background-image: none;
+}
+#list8Accordion .accordion-item:hover > .accordion-header
+{
+   background-color: #1778F2;
+   background-image: none;
+}
+#list8Accordion .accordion-body
+{
+   padding: 30px 30px 30px 30px;
+   font-size: 0;
+   text-align: left;
+   position: relative;
+}
+#list8Accordion .accordion-body::before, #list8Accordion .accordion-body::after
+{
+   display: table;
+   content: " ";
+}
+#list8Accordion .accordion-body::after
+{
+   clear: both;
+}
+#list8Accordion .accordion-item > .accordion-header + .accordion-collapse .accordion-body
+{
+   border-top-color: rgba(23,120,242,1.00);
+}
+#list8Accordion .accordion-title
+{
+   margin-top: 0;
+   margin-bottom: 0;
+   display: block;
+   color: #FFFFFF;
+   font-family: Arial;
+   font-weight: bold;
+   font-size: 19px !important;
+   font-style: normal;
+   text-align: left;
+}
+#list8Accordion .accordion-title > a
+{
+   color: inherit;
+   position: relative;
+   display: block;
+   padding: 19px 20px 19px 60px;
+   text-decoration: none;
+}
+#list8Accordion .active .accordion-title > a
+{
+   color: #FFFFFF;
+}
+#list8Accordion .collapse 
+{
+   display: none;
+}
+#list8Accordion .collapse.show
+{
+   display: block;
+}
+#list8Accordion .collapsing
+{
+   position: relative;
+   height: 0;
+   overflow: hidden;
+   transition: height 0.35s linear;
+}
+#list8Accordion .accordion-item .accordion-header .accordion-arrow
+{
+   left: 20px;
+   width: 24px;
+   height: 100%;
+   box-sizing: content-box;
+   display: inline-flex;
+   align-content: center;
+   align-items: center;
+   position: absolute;
+   text-indent: -99999px;
+   top: 0;
+   overflow: hidden;
+   fill: currentColor;
+}
+#list8Accordion .accordion-item .accordion-header .accordion-arrow .icon-default
+{
+   display: block;
+   flex: 1;
+   padding: 2px;
+}
+#list8Accordion .accordion-item .accordion-header .accordion-arrow .icon-active
+{
+   display: none;
+   flex: 1;
+   padding: 2px;
+}
+#list8Accordion .accordion-item.active .accordion-header .accordion-arrow .icon-default
+{
+   display: none;
+}
+#list8Accordion .accordion-item.active .accordion-header .accordion-arrow .icon-active
+{
+   display: block;
+}
+#wb_list8Accordion
+{
+   margin: 0;
+}
+#wb_list8Text1 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   padding: 10px 0 10px 0;
+   margin: 0;
+   text-align: left;
+}
+#wb_list8Text1
+{
+   color: #000000;
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 19px;
+   line-height: 19px;
+}
+#wb_list8Text1 div
+{
+   text-align: left;
+}
+#wb_list8Text1
+{
+   display: block;
+   margin: 0;
+   box-sizing: border-box;
+   width: 100%;
+}
+#wb_list8Text2 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   padding: 10px 0 10px 0;
+   margin: 0;
+   text-align: left;
+}
+#wb_list8Text2
+{
+   color: #000000;
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 19px;
+   line-height: 19px;
+}
+#wb_list8Text2 div
+{
+   text-align: left;
+}
+#wb_list8Text2
+{
+   display: block;
+   margin: 0;
+   box-sizing: border-box;
+   width: 100%;
+}
+#wb_list8Text3 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   padding: 10px 0 10px 0;
+   margin: 0;
+   text-align: left;
+}
+#wb_list8Text3
+{
+   color: #000000;
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 19px;
+   line-height: 19px;
+}
+#wb_list8Text3 div
+{
+   text-align: left;
+}
+#wb_list8Text3
+{
+   display: block;
+   margin: 0;
+   box-sizing: border-box;
+   width: 100%;
+}
